@@ -8,7 +8,7 @@
                 <div class="bg-green-200 p-1 rounded-md">
                     <h2 class="text-1xl ">{{ $product->category->name }}</h2>
                 </div>
-                <h2 class="text-2xl font-medium">${{ $product->price }}</h2>
+                <h2 class="text-2xl font-medium">Rp{{ $product->price }}</h2>
             </div>
             <div class="my-3">
             @if (auth()->check())

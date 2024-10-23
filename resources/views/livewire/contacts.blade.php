@@ -6,7 +6,7 @@
           Contact us
         </h1>
         <p class="mt-1 text-gray-600">
-          Tell us your story and we’ll be in touch.
+          Beri tahu kami apa kendala kamu
         </p>
       </div>
   
@@ -33,7 +33,7 @@
               <input type="email" name="hs-work-email-hire-us-2" id="hs-work-email-hire-us-2" autocomplete="email" class="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none">
             </div>
   
-            <!-- Grid -->
+            {{-- <!-- Grid -->
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
               <div>
                 <label for="hs-company-hire-us-2" class="block mb-2 text-sm text-gray-700 font-medium">Company</label>
@@ -45,7 +45,7 @@
                 <input type="text" name="hs-company-website-hire-us-2" id="hs-company-website-hire-us-2" class="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none">
               </div>
             </div>
-            <!-- End Grid -->
+            <!-- End Grid --> --}}
   
             <div>
               <label for="hs-about-hire-us-2" class="block mb-2 text-sm text-gray-700 font-medium">Details</label>
@@ -71,7 +71,7 @@
   
           <div class="mt-3 text-center">
             <p class="text-sm text-gray-500">
-              We'll get back to you in 1-2 business days.
+              
             </p>
           </div>
         </form>

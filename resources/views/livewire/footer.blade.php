@@ -180,6 +180,6 @@
       </div>
     </div>
 
-    <p class="text-xs text-gray-500">&copy; 2024. code with SJM. All rights reserved.</p>
+    <p class="text-xs text-gray-500">&copy; 2024.</p>
   </div>
 </footer>

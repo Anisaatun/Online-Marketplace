@@ -4,7 +4,7 @@
     <div class="max-w-4xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <!-- Card -->
         <div class="bg-slate-100 rounded-xl shadow p-4 sm:p-7">
-            <form wire:submit="update">
+            <form wire:submit="update" enctype="multipart/form-data>
                 <!-- Section -->
                 <div class="grid sm:grid-cols-12 gap-2 sm:gap-4 py-8 first:pt-0 last:pb-0 border-t first:border-transparent border-gray-200">
                     <div class="sm:col-span-12">

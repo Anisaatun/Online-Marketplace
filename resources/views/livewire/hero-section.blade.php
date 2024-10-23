@@ -3,11 +3,11 @@
     <div class="mx-auto max-w-xl text-center">
       <h1 class="text-3xl font-extrabold sm:text-5xl">
         Online Marketplace
-        <strong class="font-extrabold text-blue-700 sm:block text-3xl"> Discover Quality Products Online Now. </strong>
+        <strong class="font-extrabold text-blue-700 sm:block text-3xl"> Temukan Produk Berkualitas Secara Online Dengan Satu Sentuhan. </strong>
       </h1>
 
       <p class="mt-4 sm:text-xl/relaxed">
-      Browse our collection of high-quality products and enjoy seamless online shopping.
+        Telusuri koleksi produk berkualitas tinggi kami dan nikmati pengalaman belanja online yang menyenangkan
       </p>
 
       <div class="mt-8 flex flex-wrap justify-center gap-4">

@@ -50,19 +50,19 @@
             <dl class="space-y-0.5 text-sm text-gray-700">
               <div class="flex justify-between">
                 <dt>Subtotal</dt>
-                <dd>${{ $subtotal }}</dd>
+                <dd>Rp{{ $subtotal }}</dd>
               </div>
               <div class="flex justify-between">
-                <dt>VAT</dt>
-                <dd>${{ $vat }}</dd>
+                <dt>Pajak</dt>
+                <dd>Rp{{ $vat }}</dd>
               </div>
               <div class="flex justify-between">
                 <dt>Discount</dt>
-                <dd>-${{ $discount }}</dd>
+                <dd>-Rp{{ $discount }}</dd>
               </div>
               <div class="flex justify-between !text-base font-medium">
                 <dt>Total</dt>
-                <dd>${{ $total }}</dd>
+                <dd>Rp{{ $total }}</dd>
               </div>
             </dl>
 

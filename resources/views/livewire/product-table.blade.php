@@ -91,7 +91,7 @@
 							  <td class="size-px whitespace-nowrap">
 								<div class="px-6 py-3">
 								  <span class="py-1 px-1.5 inline-flex items-center gap-x-1 text-xs font-medium">
-									${{$product->price}}
+									Rp{{$product->price}}
 								  </span>
 								</div>
 							  </td>
