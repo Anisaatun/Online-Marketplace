@@ -31,7 +31,7 @@ class ShoppingCartComponent extends Component
             return $item->quantity * $item->product->price;
         });
         $this->vat = $this->subtotal * 0.1; // 10% VAT example
-        $this->discount = 5; // Apply your discount logic here
+        $this->discount = 5000; // Apply your discount logic here
         $this->total = $this->subtotal + $this->vat - $this->discount;
     }
 

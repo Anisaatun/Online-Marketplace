@@ -17,6 +17,6 @@ class AdminDashboard extends Component
         $this->currentUrl = $explode_url[3].' '.$explode_url[4];
 
         return view('livewire.admin-dashboard')
-        ->layout('admin-layout');
+        ->layout('admin-layout')->title('E-commerce | Admin Dashboard');
     }
 }

@@ -36,6 +36,6 @@ class ProductDetails extends Component
     }
     public function render()
     {
-        return view('livewire.product-details');
+        return view('livewire.product-details')->title('E-commerce | Poduct detail');
     }
 }

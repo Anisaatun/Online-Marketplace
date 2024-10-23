@@ -12,6 +12,6 @@ class ManageProduct extends Component
     {
         
         return view('livewire.manage-product')
-        ->layout('admin-layout');
+        ->layout('admin-layout')->title('E-commerce | Manage Product');
     }
 }

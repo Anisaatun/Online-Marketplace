@@ -8,6 +8,6 @@ class AllProducts extends Component
 {
     public function render()
     {
-        return view('livewire.all-products');
+        return view('livewire.all-products')->title('E-commerce | All Products');
     }
 }

@@ -37,6 +37,6 @@ class ManageCategories extends Component
             ->orderBy($this->sortBy,$this->sortDir)
             ->paginate($this->perPage)
         ])
-        ->layout('admin-layout');
+        ->layout('admin-layout')->title('E-commerce | Manage Category');
     }
 }

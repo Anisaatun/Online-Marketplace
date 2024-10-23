@@ -27,6 +27,6 @@ class AddCategory extends Component
         $explode_url = explode('/',$current_url);
         
         $this->currentUrl = $explode_url[3].' '.$explode_url[4];
-        return view('livewire.add-category')->layout('admin-layout');
+        return view('livewire.add-category')->layout('admin-layout')->title('E-commerce | Add Category');
     }
 }

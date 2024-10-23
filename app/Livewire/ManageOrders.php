@@ -8,6 +8,6 @@ class ManageOrders extends Component
 {
     public function render()
     {
-        return view('livewire.manage-orders')->layout('admin-layout');
+        return view('livewire.manage-orders')->layout('admin-layout')->title('E-commerce | Manage Order');
     }
 }

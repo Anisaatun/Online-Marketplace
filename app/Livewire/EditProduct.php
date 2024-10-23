@@ -62,6 +62,6 @@ class EditProduct extends Component
         // // dd($explode_url);
         // $this->currentUrl = $explode_url[3].' '.$explode_url[5];
 
-        return view('livewire.edit-product')->layout('admin-layout');
+        return view('livewire.edit-product')->layout('admin-layout')->title('E-commerce | Edit Product');
     }
 }
