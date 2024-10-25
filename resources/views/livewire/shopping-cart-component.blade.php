@@ -1,5 +1,5 @@
 <section>
-
+  
     <div class="mx-auto max-w-3xl">
       <header class="text-center flex gap-3">
         <h1 class="text-xl font-bold text-gray-900 sm:text-3xl">Your Cart</h1>

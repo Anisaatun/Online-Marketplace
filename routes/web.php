@@ -10,11 +10,9 @@ use App\Livewire\ManageOrders;
 use App\Livewire\ManageProduct;
 use App\Livewire\AddProductForm;
 use App\Livewire\AdminDashboard;
-use App\Livewire\Checkout;
 use App\Livewire\ProductDetails;
 use App\Livewire\ManageCategories;
 use App\Livewire\ShoppingCartComponent;
-use App\Models\Order;
 
 Route::view('/', 'welcome')->name('/');
 
@@ -50,6 +48,8 @@ Route::group(['middleware' => 'admin'], function(){
     Route::get('/add/category', AddCategory::class);
     //editing products
     Route::get('/edit/{id}/product', EditProduct::class);
+
+
 });
 
 require __DIR__.'/auth.php';

@@ -35,7 +35,7 @@ class EditProduct extends Component
             'product_description' => 'required|string',
             'product_price' => 'required|numeric',
             'category_id' => 'required|exists:categories,id',
-            'photo' => 'nullable|image|max:1024', // Validate the photo
+            'photo' => 'max:1024', // Validate the photo
         ]);
         //check if the image update/uploaded
         if ($this->photo && !is_string($this->photo)) {
