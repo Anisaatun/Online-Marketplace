@@ -10,6 +10,7 @@ use App\Livewire\ManageOrders;
 use App\Livewire\ManageProduct;
 use App\Livewire\AddProductForm;
 use App\Livewire\AdminDashboard;
+use App\Livewire\CheckoutComponent;
 use App\Livewire\ProductDetails;
 use App\Livewire\ManageCategories;
 use App\Livewire\ShoppingCartComponent;
@@ -33,6 +34,9 @@ Route::get('/about',AboutUs::class);
 Route::get('/contacts',Contacts::class);
 
 Route::get('/shopping-cart',ShoppingCartComponent::class)->name('shopping-cart');
+
+Route::get('/checkout', CheckoutComponent::class)->name('checkout');
+
 
 Route::group(['middleware' => 'admin'], function(){
     Route::get('/admin/dashboard', AdminDashboard::class)->name('dashboard');

@@ -4,7 +4,7 @@
     <div class="max-w-4xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <!-- Card -->
         <div class="bg-slate-100 rounded-xl shadow p-4 sm:p-7">
-            <form wire:submit="update" enctype="multipart/form-data>
+            <form wire:submit="update" enctype="multipart/form-data">
                 <!-- Section -->
                 <div class="grid sm:grid-cols-12 gap-2 sm:gap-4 py-8 first:pt-0 last:pb-0 border-t first:border-transparent border-gray-200">
                     <div class="sm:col-span-12">
@@ -129,7 +129,7 @@
                     <!-- End Col -->
                 </div>
                 <!-- End Section -->
-                <button wire:submit="update" enctype="multipart/form-data" type="submit" class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none">
+                <button type="submit" class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none">
                     <div wire:loading class="animate-spin inline-block size-4 border-[3px] border-current border-t-transparent text-white-600 rounded-full" role="status" aria-label="loading">
                       <span class="sr-only">Loading...</span>
                     </div>  

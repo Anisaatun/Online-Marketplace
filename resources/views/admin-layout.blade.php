@@ -78,10 +78,10 @@
             Products
           </a></li>
 
-          {{-- <li><a wire:navigate class="w-full flex items-center gap-x-3.5 py-2 px-2.5 text-sm {{Request::is('orders') ? 'bg-gray-100' : ''}} text-gray-800 rounded-lg hover:bg-gray-100" href="/orders">
+           <li><a wire:navigate class="w-full flex items-center gap-x-3.5 py-2 px-2.5 text-sm {{Request::is('orders') ? 'bg-gray-100' : ''}} text-gray-800 rounded-lg hover:bg-gray-100" href="/orders">
             <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
             Orders
-          </a></li> --}}
+          </a></li> 
 
           <li><a wire:navigate class="w-full flex items-center gap-x-3.5 py-2 px-2.5 text-sm {{Request::is('manage/categories') ? 'bg-gray-100' : ''}} text-gray-800 rounded-lg hover:bg-gray-100" href="/manage/categories">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
