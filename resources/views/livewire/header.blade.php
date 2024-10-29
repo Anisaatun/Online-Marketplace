@@ -21,6 +21,10 @@
           </li>
 
           <li>
+            <a class="text-gray-500 {{Request::is('order') ? 'text-gray-700 font-bold' : ''}} transition hover:text-gray-500/75" wire:navigate href="/order">  Order  </a>
+          </li>
+
+          <li>
             <a class="text-gray-500 {{Request::is('about') ? 'text-gray-700 font-bold' : ''}} transition hover:text-gray-500/75" wire:navigate href="/about">  About  </a>
           </li>
 
