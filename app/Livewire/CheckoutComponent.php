@@ -64,7 +64,7 @@ class CheckoutComponent extends Component
         ShoppingCart::where('user_id', Auth::id())->delete();
 
         session()->flash('message', 'Order placed successfully!');
-        return redirect()->to('/');
+        return redirect()->to('/order');
     }
 
     public function render()
