@@ -13,6 +13,7 @@ use App\Livewire\AdminDashboard;
 use App\Livewire\CheckoutComponent;
 use App\Livewire\ProductDetails;
 use App\Livewire\ManageCategories;
+use App\Livewire\ManageContacts;
 use App\Livewire\OrderList;
 use App\Livewire\ShoppingCartComponent;
 
@@ -55,6 +56,8 @@ Route::group(['middleware' => 'admin'], function(){
     Route::get('/add/category', AddCategory::class);
     //editing products
     Route::get('/edit/{id}/product', EditProduct::class);
+
+    Route::get('/manage/contacts', ManageContacts::class)->name('contact');
 
 
 });

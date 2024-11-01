@@ -17,15 +17,15 @@ class ManageOrders extends Component
 
     public function deleteOrder($orderId)
     {
-        $order = Order::find($orderId);
-        if ($order) {
-            $order->delete();
-            // Refresh the orders list
-            $this->orders = Order::all();
-            session()->flash('message', 'Order deleted successfully.');
-        } else {
-            session()->flash('error', 'Order not found.');
-        }
+    $order = Order::find($orderId);
+    if ($order) {
+        $order->delete();
+        // Refresh the orders list
+        $this->orders = Order::all();
+        session()->flash('message', 'Order deleted successfully.');
+    } else {
+        session()->flash('error', 'Order not found.');
+    }
     }
 
     public function render()

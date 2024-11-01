@@ -83,6 +83,11 @@
             Orders
           </a></li> 
 
+          <li><a wire:navigate class="w-full flex items-center gap-x-3.5 py-2 px-2.5 text-sm {{Request::is('manage/contacts') ? 'bg-gray-100' : ''}} text-gray-800 rounded-lg hover:bg-gray-100" href="/manage/contacts">
+            <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3h18v18H3z" /><path d="M3 9h18M9 3v18" /></svg>
+            Contacts
+          </a></li>
+
           <li><a wire:navigate class="w-full flex items-center gap-x-3.5 py-2 px-2.5 text-sm {{Request::is('manage/categories') ? 'bg-gray-100' : ''}} text-gray-800 rounded-lg hover:bg-gray-100" href="/manage/categories">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9.568 3H5.25A2.25 2.25 0 0 0 3 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 0 0 5.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 0 0 9.568 3Z" />

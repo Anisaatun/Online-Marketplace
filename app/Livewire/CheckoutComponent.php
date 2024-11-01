@@ -17,6 +17,7 @@ class CheckoutComponent extends Component
     public $buyer_name;
     public $address;
     public $postal_code;
+    public $phone_number;
 
     public function mount()
     {
@@ -57,6 +58,7 @@ class CheckoutComponent extends Component
                 'vat' => $this->vat,
                 'discount' => $this->discount,
                 'total' => $this->total,
+                'phone_number' => $this->phone_number,
             ]);
         }
 

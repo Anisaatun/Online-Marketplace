@@ -20,7 +20,7 @@ class Order extends Model
         'vat',
         'discount',
         'total',
-        'order_date',
+        'phone_number',
     ];
 
     public function user()

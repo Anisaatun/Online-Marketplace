@@ -67,6 +67,10 @@
                 <label for="postal_code" class="block text-sm font-medium">Kode pos</label>
                 <input type="text" id="postal_code" wire:model="postal_code" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500" required />
             </div>
+            <div class="mb-4">
+                <label for="phone_number" class="block text-sm font-medium">No HP </label>
+                <input type="number" id="phone_number" wire:model="phone_number" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500" required />
+            </div>
 
             <button type="submit" class="mt-4 bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-500">
                 Buat Pesanan (COD)

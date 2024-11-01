@@ -31,14 +31,14 @@ class Checkout extends Component
         ]);
 
         // Simpan setiap item ke dalam order_items
-        foreach ($cartItems as $item) {
-            OrderItem::create([
-                'order_id' => $order->id,
-                'product_id' => $item->product_id,
-                'quantity' => $item->quantity,
-                'price' => $item->product->price,
-            ]);
-        }
+        //foreach ($cartItems as $item) {
+          //  OrderItem::create([
+            //    'order_id' => $order->id,
+              //  'product_id' => $item->product_id,
+                //'quantity' => $item->quantity,
+                //'price' => $item->product->price,
+            //]);
+        //}
 
         // Hapus item dari keranjang setelah checkout
         ShoppingCart::where('user_id', Auth::id())->delete();
