@@ -23,7 +23,7 @@ return new class extends Migration
             $table->decimal('vat', 10, 2);
             $table->decimal('discount', 10, 2);
             $table->decimal('total', 10, 2);
-            $table->integer('phone_number');
+            $table->string('phone_number');
             $table->timestamps();
         });
     }
